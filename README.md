@@ -1,6 +1,7 @@
-🚨 #FraudShield AI: End-to-End Detection Pipeline
+🚨 FraudShield AI: End-to-End Detection Pipeline
 
 FraudShield AI is a real-time fraud detection system that moves beyond static model training. It features a high-performance FastAPI backend, a live Data Streamer, and an interactive Streamlit Dashboard for financial monitoring. Raw data source: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
 ## Key Features
 
     Cost-Sensitive Learning: Utilizes XGBoost with SMOTE+Tomek Links to handle extreme class imbalance (0.17% fraud).
@@ -29,14 +30,15 @@ The project is split into three decoupled services:
 
 Based on the Time Analysis, the model identified a significant correlation between late-night transactions (Hours 2-4 AM) and fraudulent activity.
 Metric	Result
-Fraud Recall	88%
-Precision	67%
-Avg. Latency	~3.5 ms
+Fraud Recall - 88%
+Precision- 67%
+Avg. Latency - ~3.5 ms
 Net Model Value	Positive (Saved > Admin Costs)
-
+---
 <p align="center">
   <img src="https://github.com/frankraDIUM/FraudShield-AI/blob/main/time_analysis.png" />
 </p>
+--- 
 
 ## Technical Challenges & Solutions
 
@@ -96,7 +98,6 @@ python streamer.py
     Dashboard: Streamlit, Plotly
 
     Data Handling: Pandas, NumPy, Joblib
-
 
 ## Future Works
 - Integrating a database (PostgreSQL) to store transaction history.
