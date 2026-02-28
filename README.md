@@ -30,11 +30,11 @@ The project is split into three decoupled services:
 
 Based on the Time Analysis, the model identified a significant correlation between late-night transactions (Hours 2-4 AM) and fraudulent activity.
 Metric	Result
-Fraud Recall - 88%
-Precision- 67%
-Avg. Latency - ~3.5 ms
-Net Model Value	Positive (Saved > Admin Costs)
----
+- Fraud Recall - 88%
+- Precision- 67%
+- Avg. Latency - ~3.5 ms
+- Net Model Value	Positive (Saved > Admin Costs)
+
 <p align="center">
   <img src="https://github.com/frankraDIUM/FraudShield-AI/blob/main/time_analysis.png" />
 </p>
