@@ -28,7 +28,7 @@ The project is split into three decoupled services:
 
 ## Model Performance & Insights
 
-Based on the Time Analysis, the model identified a significant correlation between late-night transactions (Hours 2-4 AM) and fraudulent activity.
+Based on the Time Analysis, the model identified a significant correlation between late-night transactions (Hours 0-5 AM) and fraudulent activity.
 Metric	Result
 - Fraud Recall - 88%
 - Precision- 67%
