@@ -13,7 +13,7 @@ FraudShield AI is a real-time fraud detection system that moves beyond static mo
     Live Monitoring: A real-time dashboard tracking fraud probability trends and system latency.
 
 <p align="center">
-  <img src="https://github.com/frankraDIUM/FraudShield-AI/blob/main/live_dashboard.png" />
+  <img src="https://github.com/frankraDIUM/FraudShield-AI/blob/main/fraud.gif" />
 </p>
 
  ## System Architecture
