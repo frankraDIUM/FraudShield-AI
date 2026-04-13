@@ -1,4 +1,4 @@
-# FraudShield AI: End-to-End Detection Pipeline 🚨
+# 🚨 FraudShield AI: End-to-End Detection Pipeline 
 
 FraudShield AI is a real-time fraud detection system that moves beyond static model training. It features a high-performance FastAPI backend, a live Data Streamer, and an interactive Streamlit Dashboard for financial monitoring. Raw data source: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
@@ -87,7 +87,7 @@ Bash
 
 python streamer.py
 
-🛠️ Tech Stack
+Tech Stack
 
     Language: Python 3.13
 
